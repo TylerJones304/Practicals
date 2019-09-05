@@ -17,7 +17,7 @@ def main():
             number = random.randint(MIN_NUMBER, MAX_NUMBER)
             while number in quick_picks:
                 number = random.randint(MIN_NUMBER, MAX_NUMBER)
-        quick_picks.append(number)
+            quick_picks.append(number)
         quick_picks.sort()
         print(quick_picks)
 
